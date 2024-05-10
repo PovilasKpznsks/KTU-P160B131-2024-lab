@@ -4,7 +4,7 @@ library(tidyverse)
 library(jsonlite)
 
 ui <- fluidPage(
-  titlePanel("2 lab"),
+  titlePanel("Odontologinės praktikos veikla"),
   sidebarLayout(
     sidebarPanel(
       selectizeInput("kodas",
